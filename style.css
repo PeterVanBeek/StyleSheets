@@ -1,0 +1,149 @@
+:root {
+  --SP: #98ac25;
+  --OP: #48a5e0;
+  --WP: #f3771a;
+  --Taal:#48a5e0;
+  --Rekenen:#f3771a;
+  --Frans:#99ae20;
+  --Andere:#ab55b0;
+}
+
+table {
+        border-radius:0 15px 15px 0;
+} 
+
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
+
+.noPageBreak {
+	 break-inside: avoid;
+}
+.comment {
+	width:100%;
+	border: 1px solid black;
+	/*background-color:#dadada;*/
+	background-image: linear-gradient(to right,#dadada00,#dadadaff);
+	font-family:caveat;
+	font-size:140%;
+	color:#555555;
+	border-radius:15px 15px 15px 15px;
+}
+.vakComment {
+	border: 0px none;
+	/*background-color:#dadada;*/
+	font-family:caveat;
+	font-size:140%;
+	color:#555555;
+}
+
+body { 	font-family: Verdana,Arial;
+		font-size:12pt;
+		background-color:#ffffff;
+}
+/*.ster {
+	padding:10px 0 0 0;text-align:center;width:40px;height:38px;
+	background-image: url("afbeeldingen/ster.png");background-repeat: no-repeat;
+	color:#333333;
+}
+#svgelem {
+               position: relative;
+               left: 0px;
+               -webkit-transform: translateX(-0%);
+               -ms-transform: translateX(-0%);
+               transform: translateX(-0%);
+}*/
+
+.altImage{vertical-align:bottom;text-align:center;font-family:caveat;font-size:150%;width:33%;}
+
+.clip-star {
+  padding:15px 3px 0 0;
+  margin:0 0 0 0;
+  text-align:center;
+  background: gold;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  display: inline-block;
+  height: 42px;
+  width: 60px;
+  font-size:130%;
+  font-family:caveat
+}
+
+table {	background-color:#ffffff;
+	border-width:0px;
+	border-spacing:0;
+}
+h1 {
+	font-family: Verdana, Arial;
+	font-size: 16pt;
+	color: var(--Rekenen);
+}
+th {
+	background-color: var(--Rekenen);
+	color: #ffffff;
+	text-align:center;
+	vertical-align:middle;
+	writing-mode: vertical-rl;
+ 	text-orientation: upright;	
+ 	border-radius: 15px 0px 0 15px; 
+}
+td.circle {width:30px;vertical-align:top;}		/*kolom: wp, op en sp*/
+td.ond {width:17%} 								/*kolom: onderwerp*/
+td.perc{	width:60px;							/*kolom: perc. (ptn op 10)*/
+			min-width:60px;
+			text-align:center;
+}
+td.klasnr_lkr_jaar{text-align:right;vertical-align:middle;}
+td.logo_rapport{width:15%;} 					/*td voor afb bovenaan rapport*/
+
+
+table.Rekenen{	width:100%;border:1px solid;height:100%;border-color:var(--Rekenen);border-radius:15px 15px 15px 15px; }
+table.Taal{		width:100%;border:1px solid;height:100%;border-color:var(--Taal);border-radius:15px 15px 15px 15px;}
+table.Frans{	width:100%;border:1px solid;height:100%;border-color:var(--Frans);border-radius:15px 15px 15px 15px;}
+table.Andere{	width:100%;border:1px solid;height:100%;border-color:var(--Andere);border-radius:15px 15px 15px 15px;}
+
+th.Rekenen{background-color:var(--Rekenen); width:20px;}
+th.Taal{background-color:var(--Taal);width:20px;}
+th.Frans{background-color:var(--Frans);width:20px;}
+th.Andere{background-color:var(--Andere);width:20px;}
+
+tr.kleur:nth-child(odd) {background-image: linear-gradient(to right,rgba(218,218,218,0),rgba(218,218,218,1));}
+tr.Rekenen:nth-child(odd) {background-image: linear-gradient(to right,#f3771a00,#f3771a33);}
+tr.Taal:nth-child(odd) {background-image: linear-gradient(to right,#48a5e000,#48a5e033);}
+tr.Frans:nth-child(odd) {background-image: linear-gradient(to right,#99ae2000,#99ae2033);}
+tr.Andere:nth-child(odd) {background-image: linear-gradient(to right,#ab55b000,#ab55b033);}
+
+
+
+.logo{ width:150px;
+		height:150px;
+		padding-left:3px;
+}
+
+div.border  {
+	width:100%;
+	border-style:solid;
+	border-width:1px;
+	background-image: linear-gradient(to right,#dadada00,#dadadaaa);
+		border-radius:15px 15px 15px 15px;
+}
+
+img.bullet {
+	width:20px;
+	height:20px;
+	padding: 0 1px 0 0;
+}
+
+span.circle { 	width:20px;
+			height:20px;
+			border-radius: 50%;
+			display: inline-block;
+			font-size:100%;
+			color:white;
+			font-family:caveat;
+}
+
+
+
+
+
